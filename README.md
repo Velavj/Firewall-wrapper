@@ -1,11 +1,6 @@
 
 ## Usage
 
-### Apply rules
-```bash
-sudo python3 firewall.py --apply
-```
-
 # Apply firewall rules from config
 python firewall.py --apply
 
