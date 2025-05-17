@@ -1,0 +1,21 @@
+{
+  "rules": [
+    {
+      "name": "AllowSSH",
+      "dir": "in",
+      "action": "allow",
+      "protocol": "TCP",
+      "localport": "22",
+      "profile": "any",
+      "enable": "yes"
+    },
+    {
+      "name": "BlockPing",
+      "dir": "in",
+      "action": "block",
+      "protocol": "ICMPv4",
+      "enable": "yes",
+      "profile": "any"
+    }
+  ]
+}
